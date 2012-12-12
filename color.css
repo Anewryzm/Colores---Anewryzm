@@ -11,7 +11,7 @@ h1 span{
 	text-shadow: 2px 2px 8px #54A7FF;
 }*/
 
-.cuadro{height: 100px;margin: 2px;width: 100px;display: inline-block;box-shadow: 0px 0px 10px #000000;}
+.cuadro{box-shadow: 0px 0px 10px #000000;border-radius:0.5em;display: inline-block;height: 100px;margin: 2px;width: 100px;}
 #paleta{margin: 0 auto;}
 #paletas{margin-bottom: 20px;text-align: center;}
 
