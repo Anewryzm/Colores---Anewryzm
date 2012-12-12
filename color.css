@@ -1,19 +1,19 @@
-.cuadro{
-	height: 100px;
-	margin: 2px;
-	width: 100px;
-	display: inline-block;
-	box-shadow: 0px 0px 8px #000000;
-}
-
-#paleta{
-	margin: 0 auto;
-}
-
-#paletas{
-	margin-bottom: 20px;
+body{background: #f5f5f5; font-size: 16px;}
+h1{
+	color: #f5f5f5;
+	font-size: 3em;
 	text-align: center;
+	text-shadow: 2px 2px 10px #000;
 }
+/*
+h1 span{
+	text-shadow: 2px 2px 8px #FF7B6B;
+	text-shadow: 2px 2px 8px #54A7FF;
+}*/
+
+.cuadro{height: 100px;margin: 2px;width: 100px;display: inline-block;box-shadow: 0px 0px 10px #000000;}
+#paleta{margin: 0 auto;}
+#paletas{margin-bottom: 20px;text-align: center;}
 
 /* PALETA #1 */
 #color1-paleta1{background: #FF6363;}
