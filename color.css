@@ -1,17 +1,51 @@
 body{background: #f5f5f5; font-size: 16px;}
-h1{
+
+header h1{
 	color: #f5f5f5;
 	font-size: 3em;
 	text-align: center;
 	text-shadow: 2px 2px 10px #000;
 }
-/*
-h1 span{
-	text-shadow: 2px 2px 8px #FF7B6B;
-	text-shadow: 2px 2px 8px #54A7FF;
-}*/
 
-.cuadro{box-shadow: 0px 0px 10px #000000;border-radius:0.5em;display: inline-block;height: 100px;margin: 2px;width: 100px;}
+h1{
+	animation: popo 5s infinite;
+	-webkit-animation: popo 5s infinite;
+	-moz-animation: popo 5s infinite;
+}
+
+@keyframes popo{
+	0%{text-shadow:2px 2px 10px #808080;}
+	20%{text-shadow:2px 2px 10px #BC75E8;}
+	40%{text-shadow:2px 2px 10px #FF7B6B;}
+	60%{text-shadow:2px 2px 10px #54A7FF;}
+	80%{text-shadow:2px 2px 10px #41E881;}
+	100%{text-shadow:2px 2px 10px #000;}
+}
+@-webkit-keyframes popo{
+	0%{text-shadow:2px 2px 10px #808080;}
+	20%{text-shadow:2px 2px 10px #BC75E8;}
+	40%{text-shadow:2px 2px 10px #FF7B6B;}
+	60%{text-shadow:2px 2px 10px #54A7FF;}
+	80%{text-shadow:2px 2px 10px #41E881;}
+	100%{text-shadow:2px 2px 10px #000;}
+}
+@-moz-keyframes popo{
+	0%{text-shadow:2px 2px 10px #808080;}
+	20%{text-shadow:2px 2px 10px #BC75E8;}
+	40%{text-shadow:2px 2px 10px #FF7B6B;}
+	60%{text-shadow:2px 2px 10px #54A7FF;}
+	80%{text-shadow:2px 2px 10px #41E881;}
+	100%{text-shadow:2px 2px 10px #000;}
+}
+
+.cuadro{
+	box-shadow: 0px 0px 10px #000000;
+	border-radius:0.5em;
+	display: inline-block;
+	height: 100px;
+	margin:2px;
+	width: 100px;
+}
 #paleta{margin: 0 auto;}
 #paletas{margin-bottom: 20px;text-align: center;}
 
