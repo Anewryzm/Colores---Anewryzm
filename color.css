@@ -42,10 +42,19 @@ h1{
 	box-shadow: 0px 0px 10px #000000;
 	border-radius:0.5em;
 	display: inline-block;
-	height: 100px;
-	margin:2px;
-	width: 100px;
+	height: 80px;
+	margin:.3%;
+	transition: all 0.2s linear;
+	-webkit-transition: 0.2s linear;
+	width: 80px;
 }
+
+.cuadro:hover{
+	transform: rotate(362deg) translate(10px);
+	-webkit-transform: rotate(362deg) translate(10px);
+	box-shadow: 5px 5px 20px #000;
+}
+
 #paleta{margin: 0 auto;}
 #paletas{margin-bottom: 20px;text-align: center;}
 
